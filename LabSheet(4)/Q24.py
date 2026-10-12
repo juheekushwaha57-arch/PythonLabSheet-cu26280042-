@@ -1,0 +1,12 @@
+# 24. Invert a dictionary (keys become values and values become keys)
+
+data = {"a": 1, "b": 2, "c": 3}
+
+inverted = {}
+
+for key, value in data.items():
+    inverted[value] = key
+
+print("Original dictionary:", data)
+print("Inverted dictionary:", inverted)
+
